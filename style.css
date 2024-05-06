@@ -1,0 +1,150 @@
+:root{
+    --color1: #26241E;
+    --color2: #615F6D;
+    --color3: #584A3C;
+    --color4: #A67153;
+    --color5: whitesmoke;
+}
+
+body{
+    padding: 0px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--color1);
+    color: var(--color5);
+}
+
+h1#perfil-title{
+    font-size: 40px;
+}
+
+section{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: var(--color5);
+}
+
+div#introduction-description{
+    text-align: justify;
+}
+
+.skills{
+    background-color: var(--color2);
+    color: var(--color5);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project{
+    background-color: var(--color5);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.project p{
+    margin-right: 20px;
+    margin-left: 20px;
+    min-width: 300px;
+}
+
+.project img{
+    width: 400px;
+    height: 350px;
+}
+
+.about_me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #615F6D;
+    color: var(--color5);
+    padding: 1px;
+}
+
+.about_me p{
+    margin-right: 20px;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.titleR{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: right;
+    font-size: 30px;
+}
+
+.titleL{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 30px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+li{
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+    max-width: 200px;
+    text-align: center;
+    font-size: 24px;
+  }
+
+p{
+    max-width: 600px;
+}
+
+p .fab{
+    text-align: center;
+    font-size: 30px;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+}
+
+img#perfil-image{
+    width: 250px;
+    height: 250px;
+}
+
+footer{
+    background-color: var(--color1);
+    color: var(--color5);
+    padding: 20px;
+}
